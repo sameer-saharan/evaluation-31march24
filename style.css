@@ -205,8 +205,9 @@ body {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    align-items: center;
+    align-items:flex-start;
     background-color: #191818;
+    padding-top: 200px;
 }
 
 .faq-left {
@@ -225,7 +226,7 @@ body {
     font-family: "Shojumaru";
     font-size: 44px;
     color:#ED0137;
-    margin-bottom: 40px;
+    margin-bottom: 50px;
 }
 .faq-boxes {
     display: flex;
@@ -251,4 +252,35 @@ body {
 .srn {
     margin-left: 20px;
     margin-right: 60px;
+}
+
+.faq-box-two {
+    display: flex;
+    flex-direction: column;
+    width: 640px;
+    height: 219px;
+    border-radius: 20px;
+    background: #0F0F0F;
+    border: 1px solid #ED0137;
+    font-family: "Shojumaru";
+}
+.last-ques {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    margin-top: 60px;
+    margin-bottom: 20px;
+
+}
+.ques-box {
+    width: 568px;
+    height: 60px;
+    margin-left: 37px;
+    border-radius: 20px;
+    background: #EEEEEE0A;
+    font-family: "ZCOOL KuaiLe";
+    color:#FBF9F9;
+    font-size: 15px;
+    text-align: center;
+    padding-top: 40px;
 }
