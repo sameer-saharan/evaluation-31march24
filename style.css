@@ -202,4 +202,53 @@ body {
 /* --Faq-- */
 .faq {
     height: 1059px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #191818;
+}
+
+.faq-left {
+    width: 503px;
+    height: 503px;
+}
+
+.faq-right {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.faq-head {
+    width: 119px;
+    height: 52px;
+    font-family: "Shojumaru";
+    font-size: 44px;
+    color:#ED0137;
+    margin-bottom: 40px;
+}
+.faq-boxes {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+}
+.faq-box-one {
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    width: 640px;
+    height: 77px;
+    border-radius: 20px;
+    background: #0F0F0F;
+    border: 1px solid #ED0137;
+    font-family: "Shojumaru";
+}
+.ques,.srn {
+    font-family: "Shojumaru";
+    color: #FFFFFF;
+}
+.srn {
+    margin-left: 20px;
+    margin-right: 60px;
 }
