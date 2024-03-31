@@ -1,0 +1,20 @@
+@font-face {
+    font-family: 'ZCOOL KuaiLe';
+    font-style: normal;
+    font-weight: 400;
+    src: url('./fonts/ZCOOL_KuaiLe/ZCOOLKuaiLe-Regular.ttf') format('truetype');
+  }
+
+@font-face {
+font-family: 'Shojumaru';
+font-style: normal;
+font-weight: 400;
+src: url('./fonts/Shojumaru/Shojumaru-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Poppins";
+    font-style: normal;
+    font-weight: 400;
+    src: url(./fonts/Poppins/Poppins-Regular.ttf) format('truetype');
+}
