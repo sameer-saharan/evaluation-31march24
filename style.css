@@ -36,7 +36,7 @@ body {
 .logo-name {
     width: 122px;
     height: 32px;
-    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-family: "ZCOOL KuaiLe";
     font-size: 32px;
     color: #FFFFFF;
 }
@@ -53,11 +53,11 @@ body {
 
 }
 .nav-items {
-    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-family: "ZCOOL KuaiLe";
     font-size: 20px;
 }
 .wallet {
-    font-family: "ZCOOL KuaiLe", sans-serif;
+    font-family: "ZCOOL KuaiLe";
     font-size: 12px;
     font-weight: 600;
     width: 127px;
@@ -99,8 +99,8 @@ body {
     width: 114px;
     height: 26px;
     background: linear-gradient(92.23deg, #FF002A 5.2%, #720005 90.93%);
-    /* -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent; */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
     padding: 0 0 5px 0;
     margin: 20px 0;
 }
@@ -122,12 +122,84 @@ body {
 .frame-main {
     height: 2284px;
 }
+
+/* --Introduction-- */
 .introduction {
+    height: 509px;
+    background-color: #191818;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.intro {
+    display: flex;
+    flex-direction: column;
 
 }
+.intro-head {
+    font-family: "Shojumaru";
+    color: #ED0137;
+    font-size: 44px;
+    width: 389px;
+    height: 52px;
+    margin-bottom: 10px;
+}
+.intro-text {
+    font-family: "Shojumaru";
+    color: #FFFFFF;
+    width: 350px;
+    height: 207px;
+}
+.read-more {
+    font-family: "Shojumaru";
+    color: #bbb0b0;
+}
+.documents {
+    width: 120px;
+    height: 30px;
+    border-radius: 21.92px;
+    padding: 17.03px 21.29px;
+    background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+}
+.documents span {
+    width: 109px;
+    height: 20px;
+    font-size: 20.03px;
+    font-family: "ZCOOL KuaiLe";
+}
 
-.roadmap {}
 
+/* --Roadmap-- */
+.roadmap {
+    height: 716px;
+    background-image: url(./media/roadmapbgc.png);
+    opacity: 0.9;
+    background-color: rgba(0, 0, 0, 1);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.roadmap-text {
+    width: 282px;
+    height: 52px;
+    font-family: "Shojumaru";
+    font-size: 44px;
+    color:#ED0137;
+}
+.cards {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width: 1159.1px;
+    height: 349px;
+}
+.card-one img {
+    border-radius: 13.17px;
+    background: linear-gradient(93.73deg, #000000 0.19%, #2b0000 98.19%);
+}
+/* --Faq-- */
 .faq {
-    
+    height: 1059px;
 }
