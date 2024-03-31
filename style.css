@@ -169,10 +169,12 @@ body {
 }
 .documents {
     width: 120px;
-    height: 30px;
+    height: 25px;
     border-radius: 21.92px;
     padding: 17.03px 21.29px;
     background: linear-gradient(93.73deg, #D51B46 10.19%, #EE6910 98.19%);
+    margin-top: 10px;
+    color: #FFFFFF;
 }
 .documents span {
     width: 109px;
